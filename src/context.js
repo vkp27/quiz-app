@@ -1,5 +1,5 @@
 import axios from 'axios'     //handles ajax requests
-import React, { useState, useContext, useEffect } from 'react'
+import React, { useState, useContext } from 'react'
 
 const table = {
   sports: 21,
@@ -9,8 +9,8 @@ const table = {
 
 const API_ENDPOINT = 'https://opentdb.com/api.php?'
 
-const url = ''
-const tempUrl = 'https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple'
+//const url = ''
+//const tempUrl = 'https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple'
 
 const AppContext = React.createContext()
 
